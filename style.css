@@ -22,7 +22,6 @@ main {
   padding: 20px;
 }
 
-.list,
 .map {
   margin: 20px auto;
   padding: 20px;
@@ -64,9 +63,14 @@ ul li a:hover {
   background-color: #e0e0e0;
 }
 
-.map img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+
+.map {
+  margin-top: 3%;
+}
+
+.world-map-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
